@@ -4,6 +4,7 @@ body {
     background-size: no-repeat;
     font-family: 'Roboto Condensed', sans-serif;
     background-size: cover;
+    margin: 0;
 }
 p {
     margin-left: 20px;
@@ -11,7 +12,7 @@ p {
     font-size: 20px;
 }
 h1{
-    margin-left: 20px;
+    margin-left: 15px;
     color: rgb(0, 255, 0);
 }
 li {
@@ -27,4 +28,16 @@ a {
     text-decoration: none;
     display: block;
     font-size: 30px;
+}
+nav {
+    backdrop-filter: blur(5px);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    margin: -15px;
+}
+.menu_inner {
+    display: flex;
+    justify-content: space-around;
 }
