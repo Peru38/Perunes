@@ -11,10 +11,7 @@ p {
     color: rgb(0, 255, 0);
     font-size: 20px;
 }
-h1{
-    margin-left: 15px;
-    color: rgb(0, 255, 0);
-}
+
 li {
     list-style-type: none;
     margin-right: -5px;
