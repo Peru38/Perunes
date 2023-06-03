@@ -5,6 +5,13 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     background-size: cover;
 }
+a {
+    font-size: 20px;
+    margin-left: 130px;
+    color: rgb(31, 255, 1);
+    font-size: 30px;
+    text-decoration: none;
+}
 p {
      text-indent: 10px;
      margin-left: 20px;
@@ -12,15 +19,17 @@ p {
      font-size: 20px;
 }
 form {
+    
     backdrop-filter: blur(5px);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 
+     box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 
     -23px 0 20px -23px rgba(0, 0, 0, .8),
     23px 0 20px -23px rgba(0, 0, 0, .8),
     0 0 40px rgba(0, 0, 0, .1) inset;
     /* border: 2px #fff solid; */
     width: 400px;
-    height: 400px;
-    margin: 0 auto;
+     height: 700px;
+     margin: 0 auto;
+    
 }
 button {  
     margin: 10px 0 10px 0;
@@ -43,4 +52,12 @@ a {
 h2{
     margin-left: 30px;
     color: rgb(0, 255, 0);
+}
+nav {
+    backdrop-filter: blur(5px);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    margin: -15px;
 }
