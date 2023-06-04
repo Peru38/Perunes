@@ -21,9 +21,10 @@ form {
     0 0 40px rgba(0, 0, 0, .1) inset;
     /* border: 2px #fff solid; */
     width: 400px;
-    height: 470px;
+    height: 400px;
     margin: 0 auto;
     margin-top: 100px;
+    
 }
 button {  
     margin: 10px 0 10px 0;
@@ -68,4 +69,9 @@ nav {
 .menu_inner {
     display: flex;
     justify-content: space-around;
+}
+.zabsl {
+    color: rgb(4, 252, 4);
+    margin-left: 125px;
+    font-size: 20px;
 }

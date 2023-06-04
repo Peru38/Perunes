@@ -6,19 +6,12 @@ body {
     background-size: cover;
     margin: 0;
 }
-p {
-    margin-left: 20px;
-    color: rgb(0, 255, 0);
-    font-size: 20px;
-}
 h2 {
     color: rgb(0, 252, 13);
     font-size: 40px;
     padding: 20px;
-}
-h4 {
-    color: rgb(0, 252, 13);
-    margin-left: 10px;
+
+    
 }
 
 li {
