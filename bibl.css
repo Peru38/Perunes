@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100&display=swap');
+body {
+    background-image: url(./img/background.png);
+    background-size: no-repeat;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-size: cover;
+    margin: 0;
+    
+
+}
+
+.content {
+    background-color: aqua;
+    width: 870px;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: blueviolet;
+    width: 820px;
+    margin: 0 auto;
+}
+
+.card_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card_item {
+    background-color: #fff;
+    width: 380px;
+    height: 150px;
+    margin: 10px;
+}
+
+p {
+    margin-left: 20px;
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+}
+h2 {
+    color: rgb(0, 252, 13);
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+
+li {
+    list-style-type: none;
+    margin-right: -5px;
+    padding: 3px;
+    text-align: center;
+    display:inline-block;
+    
+}
+a {
+    color: rgb(0, 255, 0); 
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+}
+nav {
+    backdrop-filter: blur(5px);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    margin-top: -15px;
+}
+.menu_inner {
+    display: flex;
+    justify-content: space-around;
+}
