@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100&display=swap');
 body {
-    background-image: url(./img/background.png);
+    background-image: url(./img/Dayz2.jpeg);
     background-size: no-repeat;
     font-family: 'Roboto Condensed', sans-serif;
     background-size: cover;
@@ -9,15 +9,18 @@ body {
 
 }
 
-.content {
-    background-color: aqua;
-    width: 870px;
+.content { width: 870px;
     margin: 0 auto;
     height: 970px;
 }
 
-.container {
-    background-color: blueviolet;
+.container {    backdrop-filter: blur(5px);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    /* border: 2px #fff solid; */
+    
     width: 820px;
     margin: 0 auto;
     height: 870px;
@@ -44,7 +47,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(60, 255, 0);
+    color: rgb(8, 0, 255);
     margin-left: 300px;
 }
 
@@ -77,8 +80,13 @@ nav {
 }
 
 button {  
-    margin: 0 auto;
+    font-size: 20px;
     background-color: rgb(0, 0, 0);
-    
     color:rgb(0, 255, 51);
+    margin-left: 90px;   
+}
+
+img {
+    width: 380px;
+    height: 214px;
 }
