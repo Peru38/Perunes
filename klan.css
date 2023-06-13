@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 h2 {
-    color: rgb(0, 252, 13);
+    color: rgb(22, 1, 255);
     font-size: 40px;
     padding: 20px;
 
@@ -23,7 +23,7 @@ li {
     
 }
 a {
-    color: rgb(0, 255, 0); 
+    color: rgb(22, 1, 255);
     text-decoration: none;
     display: block;
     font-size: 30px;

@@ -8,10 +8,9 @@ body {
 
 
 p {
-     text-indent: 10px;
      margin-left: 20px;
-     color: rgb(0, 255, 0);
-     font-size: 20px;
+     color: rgb(22, 1, 255);
+     font-size: 25px;
 }
 form {
     backdrop-filter: blur(5px);
@@ -28,9 +27,9 @@ form {
 }
 button {  
     margin: 10px 0 10px 0;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 0);
     font-size: 36px;
-    color:rgb(0, 255, 51);
+    color: rgb(22, 1, 255);
     margin-left: 20px;
 }
 input {
@@ -50,13 +49,13 @@ li {
 a {
     font-size: 20px;
     margin-left: 130px;
-    color: rgb(31, 255, 1);
-    font-size: 30px;
+    color: rgb(22, 1, 255);
+    font-size: 35px;
     text-decoration: none;
 } 
 h2{
     margin-left: 70px;
-    color: rgb(0, 255, 0);
+    color: rgb(22, 1, 255);
 }
 nav {
     backdrop-filter: blur(5px);
@@ -71,7 +70,7 @@ nav {
     justify-content: space-around;
 }
 .zabsl {
-    color: rgb(4, 252, 4);
+    color: rgb(22, 1, 255);;
     margin-left: 125px;
     font-size: 20px;
 }
