@@ -4,6 +4,7 @@ body {
     background-size: no-repeat;
     font-family: 'Roboto Condensed', sans-serif;
     background-size: cover;
+    background-attachment: fixed
 }
 
 
@@ -38,36 +39,9 @@ input {
     height: 30px;
     margin-left: 30px;
 }
-li {
-    list-style-type: none;
-    margin-right: -5px;
-    padding: 3px;
-    text-align: center;
-    display:inline-block;
-    
-}
-a {
-    font-size: 20px;
-    margin-left: 130px;
-    color: rgb(31, 255, 1);
-    font-size: 30px;
-    text-decoration: none;
-} 
 h2{
     margin-left: 70px;
     color: rgb(0, 255, 0);
-}
-nav {
-    backdrop-filter: blur(5px);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 
-    -23px 0 20px -23px rgba(0, 0, 0, .8),
-    23px 0 20px -23px rgba(0, 0, 0, .8),
-    0 0 40px rgba(0, 0, 0, .1) inset;
-    margin-top: -15px;
-}
-.menu_inner {
-    display: flex;
-    justify-content: space-around;
 }
 .zabsl {
     color: rgb(4, 252, 4);

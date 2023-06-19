@@ -1,0 +1,27 @@
+.menu_inner {
+    display: flex;
+    justify-content: space-around;
+}
+nav {
+    backdrop-filter: blur(5px);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    width: 1200px;
+    margin: auto;   
+}
+li {
+    list-style-type: none;
+    margin-right: -5px;
+    padding: 3px;
+    text-align: center;
+    display:inline-block;
+    
+}
+a {
+    color: rgb(22, 1, 255); 
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+}

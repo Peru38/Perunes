@@ -4,9 +4,8 @@ body {
     background-size: no-repeat;
     font-family: 'Roboto Condensed', sans-serif;
     background-size: cover;
+    background-attachment: fixed
 }
-
-
 p {
      margin-left: 20px;
      color: rgb(5, 1, 255);
@@ -20,9 +19,9 @@ form {
     0 0 40px rgba(0, 0, 0, .1) inset;
     /* border: 2px #fff solid; */
     width: 400px;
-    height: 470px;
+    height: 530px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 button {  
     margin: 10px 0 10px 0;
@@ -37,34 +36,8 @@ input {
     height: 30px;
     margin-left: 30px;
 }
-li {
-    list-style-type: none;
-    margin-right: -5px;
-    padding: 3px;
-    text-align: center;
-    display:inline-block;
-    
-}
-a {
-    font-size: 20px;
-    margin-left: 130px;
-    color: rgb(22, 1, 255);
-    font-size: 30px;
-    text-decoration: none;
-} 
 h2{
     margin-left: 70px;
     color: rgb(22, 1, 255);
 }
-nav {
-    backdrop-filter: blur(5px);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 
-    -23px 0 20px -23px rgba(0, 0, 0, .8),
-    23px 0 20px -23px rgba(0, 0, 0, .8),
-    0 0 40px rgba(0, 0, 0, .1) inset;
-    margin-top: -15px;
-}
-.menu_inner {
-    display: flex;
-    justify-content: space-around;
-}
+
