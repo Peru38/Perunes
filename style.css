@@ -8,12 +8,7 @@ body {
     background-attachment: fixed
 }
 
-.ch {
-    margin-left: 20px;
-    color: rgb(0, 255, 0);
-    font-size: 20px;
-    text-align: center;
-}
+
 h2 {
     color: rgb(22, 1, 255);
     font-size: 40px;
@@ -36,15 +31,23 @@ h3 {
     0 0 40px rgb(245, 5, 5) inset;
     /* border: 2px #fff solid; */
     width: 600px;
-    height: 500px;
+    height: 600px;
 }
 .news a {
     color: rgb(14, 255, 1); 
     text-decoration: none;
     font-size: 15px;
     text-align: center;
-    border: 2px #fff solid;
-    margin: 5px;
+    border: 2px rgb(0, 217, 255) solid;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.ch {
+    margin-left: 20px;
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    text-align: center;
 }
 .chat {
     backdrop-filter: blur(5px);
@@ -54,10 +57,10 @@ h3 {
     0 0 40px rgb(0, 4, 255) inset;
     /* border: 2px #fff solid; */
     width: 400px;
-    height: 500px;
+    height: 600px;
 }
 .chat input {
-    margin-top: 395px;
+    margin-top: 495px;
     width: 380px;
     margin-left: 5px;
 }
